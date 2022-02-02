@@ -1,4 +1,4 @@
-//in function.php
+<?php //in function.php
 function custom_posts($query){
   if (is_category(121)) {
     $query->set('posts_per_page', 25);
